@@ -1,0 +1,217 @@
+  * {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+
+  }
+
+  hr{
+    opacity: 0.25;
+  }
+
+  .oof {
+    width: 95%;
+  }
+
+  #col1 hr {
+    width: 90%;
+    opacity: 0.25;
+  }
+
+  #row1 {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+    margin: 1em;
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  #col1 {
+    flex: 1;
+    background-color: white;
+    margin-right: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  #avatar {
+    width: 100%;
+  }
+
+  #name {
+      position: absolute;
+      top: 32vh;
+      left: 12vh;
+      font-size: 2em;
+      font-weight: lighter;
+  }
+
+  #col1 p {
+    padding-left: 1em;
+    font-size: 1.1em;
+    color: gray;
+  }
+
+  .boja {
+    color: rgb(49, 145, 135);
+  }
+
+  #col1 i {
+    color: rgb(49, 145, 135);
+    margin-right: 1em;
+  }
+
+  .skills-stat {
+    background-color: lightgray;
+    position: relative;
+    left: 5%;
+    width: 90%;
+    border-radius: 1em;
+  }
+
+  .skills-percent {
+    background-color: rgb(49, 145, 135);
+    border-radius: 1em;
+  }
+
+  .percent {
+    color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+
+  #col2 {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+  }
+
+  #wexp {
+      background-color: white;
+      flex: 1;
+      margin-bottom: 1em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .ostalo i {
+    margin-right: 1em;
+  }
+  
+  .naslov > h2 {
+    color: gray;
+    margin-left: 1em;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+  }
+
+  .naslov i {
+    font-size: 1.5em;
+    margin-right: 0.3em;
+  }
+
+  .ostalo {
+    padding-left: 2em;
+  }
+
+  .ostalo h5 {
+    font-size: 1.2em;
+    color: gray;
+    padding: 0;
+    margin-bottom: 0.5em;
+  }
+
+  .ostalo h6 {
+    font-size: 1.025em;
+    margin: 0;
+  }
+
+  .ostalo p {
+    font-size: 0.95em;
+  }
+
+  #col2 i {
+    color: rgb(49, 145, 135);
+    padding-right: 1em;
+  }
+
+  .current {
+      color: white;
+      background-color: rgb(49, 145, 135);
+      display: inline-block;
+      padding: 0.25em;
+      border-radius: 0.3em;
+  }
+
+  #edu {
+      background-color: white;
+      flex: 1;
+      margin-bottom: 1em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      padding-left: 2em;
+  }
+
+  #edu hr {
+      margin-right: 2em;  
+  }
+
+  #edu > h2 {
+    color: gray;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+  }
+
+ #edu i {
+    font-size: 1.5em;
+    margin-right: 0.3em;
+  }
+
+  #edu h5 {
+    font-size: 1.2em;
+    color: gray;
+    padding: 0;
+    margin-bottom: 0.5em;
+  }
+
+  #edu h6 {
+    font-size: 1.025em;
+    margin: 0;
+  }
+
+  #edu p {
+    font-size: 0.95em;
+  }
+
+
+  footer {
+
+      background-color: rgb(49, 145, 135);
+      height: 17vh;
+      
+  }
+
+  footer > p {
+  text-align: center;
+  color: white;
+  }
+
+  footer a:link, footer > i {
+    color: white;
+  }
+
+  footer > i {
+    position: relative;
+    left: 46.5%;
+    }
+
+    footer > i:hover {
+      opacity: 0.5;
+    }
